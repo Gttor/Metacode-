@@ -1,0 +1,228 @@
+/* 清除页面起始的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置盒子页面最小宽度 */
+body {
+    min-width: 1381px;
+    height: 720px;
+    background-image: url(https://www.tencent.com/img/banners/brief-1-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #fbfbfb;
+}
+
+/* 设置页面居中的类选择器 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 清除浮动的额外标签代码 */
+.clear {
+    clear: both;
+}
+
+/* 清除ul里面li前面的小圆点 */
+ul>li {
+    list-style: none;
+}
+
+/* 清除a链接的形式 */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 头部文件的布局 */
+.ten-top {
+    position: relative;
+    top: 0;
+    padding-bottom: 0;
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+/* 设置背景图 */
+.ten-top-images {
+    position: absolute;
+    top: 0;
+    padding-bottom: 0;
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+    background: ragb(0, 0, 0, .3);
+    background-size: 1200px 720px;
+    background-image: url(https://www.tencent.com/img/banners/brief-1-1.jpg);
+
+}
+
+.ten-top-text1 {
+    height: 720px;
+    width: 1200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+/* 设置腾讯logo样式 */
+.ten-top-logo {
+    /* margin-left: 20px;
+    margin-top: 18px; */
+    margin-right: 0;
+    width: 140px;
+    height: 19px;
+    float: left;
+
+}
+
+/* 设置菜单样式 */
+.ten-top-list {
+    line-height: 72px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 60px;
+}
+
+.ten-top-list:first-child {
+    margin-left: 399px;
+}
+
+/* 设置语言样式 */
+.ten-top-language {
+    line-height: 72px;
+    float: right;
+    margin-left: 13px;
+    color: #4c4d4e;
+}
+
+/* 改变“简”字的颜色 */
+.ten-top-language:last-child {
+    color: #fff;
+}
+
+/* 中间的字体 */
+.ten-top-text2 {
+    position: absolute;
+    z-index: 2;
+    height: 39px;
+    margin-top: 250px;
+    line-height: 67.2px;
+    font-size: 42px;
+    font-variant: normal;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* 两个箭头 */
+.ten-top-zuojiantou::after {
+    content: '';
+    position: absolute;
+    top: 538px;
+    left: 10px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.ten-top-youjiantou::after {
+    content: '';
+    position: absolute;
+    top: 539px;
+    left: 142px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.hengxian1::after {
+    content: '';
+    position: absolute;
+    top: 541px;
+    left: 10px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+.hengxian2::after {
+    content: '';
+    position: absolute;
+    top: 541px;
+    left: 100px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+/* 以上是两个箭头 */
+/* 右侧四个小点 */
+.sigexiaodian1 {
+    position: absolute;
+    top: 538px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.sigexiaodian2 {
+    position: absolute;
+    top: 538px;
+    right: 42px;
+    width: 30px;
+    height: 10px;
+    background-color: #0052d9;
+}
+
+.sigexiaodian3 {
+    position: absolute;
+    top: 538px;
+    right: 84px;
+    width: 10px;
+    height: 10px;
+
+    background-color: #fff;
+}
+
+.sigexiaodian4 {
+    position: absolute;
+    top: 538px;
+    right: 106px;
+    width: 10px;
+    height: 10px;
+    margin-left: 12px;
+    background-color: #fff;
+}
+
+/* 页面下方横线 */
+.hengxian3::after {
+    content: '';
+    position: absolute;
+    top: 590.8px;
+    right: 20px;
+    left: 10px;
+    width: 1170px;
+    height: 3px;
+    border-bottom: 1px solid #fff;
+}
+
+h4 {
+    position: absolute;
+    top: 615px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: TencentSansW7CN;
+    color: #fff;
+}

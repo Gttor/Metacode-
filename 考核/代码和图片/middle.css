@@ -1,0 +1,688 @@
+/* 中间部分的第一个大盒子 */
+.middle-box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 624.8px;
+    overflow: hidden;
+}
+
+/* 中间部分第一个大盒子左边的小盒子 */
+.middle-box1-left {
+    width: 771.59px;
+    height: 600px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.middle-box1-left:hover {
+    box-shadow: -10px -10px rgb(0, 0, 0, .5);
+}
+
+/* 中间部分第一个大盒子左边的小盒子图片鼠标经过放大效果 */
+.middle-box1-left-img1 {
+    transition: all 1s;
+}
+
+.middle-box1-left:hover middle-box1-left-img1 {
+    transform: scale(2);
+}
+
+/* 日期1 */
+.middle-box1-left-img2 {
+    margin: 25.6px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+/* 中间部分第一个大盒子左边的小盒子文本样式 */
+.middle-box1-left>h3 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-bottom: 25.6px;
+    color: #000;
+}
+
+.middle-box1-left>p {
+    margin-left: 25px;
+    color: #000;
+}
+
+
+/* 中间部分第一个大盒子右边的小盒子 */
+.middle-box1-right {
+    width: 404.4px;
+    height: 600px;
+    background-color: #00a9ce;
+}
+
+/* 日期2 */
+.middle-box1-right-img2 {
+    margin-top: 25.6px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+/* 中间部分第一个大盒子右边的小盒子文本样式 */
+.middle-box1-right>h3 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-bottom: 23px;
+    padding: 0px;
+    color: #fff;
+}
+
+.middle-box1-right>p {
+    margin-left: 24px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+/* 中间部分的第二个大盒子 */
+.middle-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 610px;
+    overflow: hidden;
+}
+
+/* 中间部分第二个大盒子左边的小盒子 */
+.middle-box2-left {
+    width: 380px;
+    height: 610px;
+    background-color: #0052d9;
+}
+
+/* 日期3 */
+.middle-box2-left-img2 {
+    margin-top: 25.6px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+/* 中间部分第二个大盒子左边的小盒子文本样式 */
+.middle-box2-left>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.4em;
+    margin: 12px 24px;
+    margin-right: 35px;
+    padding: 0px px;
+    color: #fff;
+}
+
+.middle-box2-left>p {
+    margin-left: 24px;
+    margin-right: 38px;
+    line-height: 1.4em;
+    color: #fff;
+}
+
+/* 中间部分第二个大盒子中间的小盒子 */
+.middle-box2-middle {
+    width: 380px;
+    height: 610px;
+    background-color: #fff;
+}
+
+/* 日期4 */
+.middle-box2-middle-img2 {
+    margin-top: 25.6px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+/* 中间部分第二个大盒子中间的小盒子文本样式 */
+.middle-box2-middle>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.4em;
+    margin: 12px 24px;
+    margin-right: 35px;
+    padding: 0px px;
+    font-weight: normal;
+    color: #000;
+}
+
+.middle-box2-middle>p {
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 1.4em;
+    color: #000;
+}
+
+/* 中间部分第二个大盒子右边的小盒子 */
+.middle-box2-right {
+    width: 404.39px;
+    height: 610px;
+    background-color: #d8d7df;
+}
+
+/* 日期5 */
+.middle-box2-right-img2 {
+    margin-top: 25.6px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+/* 中间部分第二个大盒子右边的小盒子文本样式 */
+.middle-box2-right>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.4em;
+    margin: 12px 24px;
+    margin-right: 25px;
+    padding: 0px px;
+    font-weight: normal;
+    color: #000;
+}
+
+.middle-box2-right>p {
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 1.4em;
+    color: #000;
+}
+
+/* 中间部分的第三个大盒子 */
+.middle-box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 624.8px;
+    margin-top: 24.2px;
+    overflow: hidden;
+}
+
+/* 中间部分第三个大盒子左边的小盒子 */
+.middle-box3-left {
+    width: 771.59px;
+    height: 600px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* 日期6 */
+.middle-box3-left-img2 {
+    margin: 25.6px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+/* 中间部分第三个大盒子左边的小盒子文本样式 */
+.middle-box3-left>h3 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-bottom: 25.6px;
+    color: #000;
+}
+
+.middle-box3-left>p {
+    margin-left: 25px;
+    color: #000;
+}
+
+/* 中间部分第三个大盒子右边的小盒子 */
+.middle-box3-right {
+    width: 404.4px;
+    height: 600px;
+    background-color: #0052d9;
+}
+
+/* 日期7 */
+.middle-box3-right-img2 {
+    margin-top: 25.6px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+/* 中间部分第三个大盒子右边的小盒子文本样式 */
+.middle-box3-right>h3 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 23px;
+    padding: 0px;
+    color: #fff;
+}
+
+.middle-box3-right>p {
+    margin-left: 24px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+/* 中间部分的第四个大盒子 */
+.middle-box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 314px;
+    margin-bottom: 82px;
+    overflow: hidden;
+}
+
+/* 中间部分的第四个大盒子左边的小盒子 */
+.middle-box4-left {
+    width: 772px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-size: 772px 314px;
+    background-image: url(https://static.www.tencent.com/img/carbon-neutrality/carbon-neutral-pc.jpg);
+}
+
+#middle-box4-left {
+    background-image: linear-gradient(to right, black, #fff);
+}
+
+.middle-box4-left>h3 {
+    margin-top: 88px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+.middle-box4-left>p {
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 1.5em;
+    max-width: 500px;
+    color: #fff;
+}
+
+/* 中间部分的第四个大盒子右边的小盒子 */
+.middle-box4-right {
+    width: 404.59px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-size: 404.59px 314px;
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url(https://static.www.tencent.com/uploads/2023/03/17/7b9481635913af701cfe03627532aa4e.png!media.cover);
+}
+
+.middle-box4-right>h3 {
+    margin-top: 130px;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* 中间部分的第五个大盒子 */
+.middle-box5 {
+    margin-top: 84px;
+    background-color: #fff;
+    width: 1200px;
+    height: 374px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+    font-size: 24px;
+}
+
+.middle-box5-left {
+    width: 384px;
+    height: 230px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 230px;
+    background-size: 384px 230px;
+    background-image: url(https://www.tencent.com/data/index/index_detail_1.jpg);
+}
+
+.middle-box5-middle {
+    width: 384px;
+    height: 230px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 230px;
+    background-size: 384px 230px;
+    background-image: url(https://www.tencent.com/data/index/index_detail_2.jpg);
+}
+
+.middle-box5-right {
+    width: 384px;
+    height: 230px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 230px;
+    background-size: 384px 230px;
+    background-image: url(https://www.tencent.com/data/index/index_detail_3.jpg);
+}
+
+/* 中间部分的第六个大盒子 */
+.middle-box6 {
+    width: 1200px;
+    height: 630px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #1b1f25;
+}
+
+/* 中间部分的第六个大盒子左边的小盒子 */
+.middle-box6-left {
+    width: 410px;
+    height: 630px;
+    position: relative;
+    background-color: #1b1f25;
+}
+
+.middle-box6-left-top {
+    position: absolute;
+    margin-top: 131.2px;
+    width: 288px;
+    height: 116px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.xiaolandian {
+    width: 6px;
+    height: 33px;
+    background-color: #0052d9;
+    position: absolute;
+}
+
+.middle-box6-left-top>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 35.2px;
+}
+
+.middle-box6-left-top>p {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 35.2px;
+}
+
+.middle-box6-youjiantou::after {
+    content: '';
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 90px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.hengxian4::after {
+    content: '';
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 46px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+.middle-box6-left-middle {
+    position: absolute;
+    width: 288px;
+    height: 116px;
+    margin-top: 288.8px;
+    font-weight: normal;
+    color: #8d8f92;
+}
+
+.middle-box6-left-middle>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.middle-box6-left-middle>p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.middle-box6-left-bottom {
+    position: absolute;
+
+    width: 288px;
+    height: 116px;
+    margin-top: 412px;
+    font-weight: normal;
+    color: #8d8f92;
+}
+
+.middle-box6-left-bottom>h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.middle-box6-left-bottom>p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* 中间部分的第六个大盒子中间的小盒子 */
+.middle-box6-middle {
+    width: 393.96px;
+    height: 630px;
+}
+
+.middle-box6-middle-img1 {
+    width: 393.96px;
+    height: 315.16px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    background-image: url(https://www.tencent.com/data/index/index_link_1_1.jpg);
+}
+
+.middle-box6-middle-img1>h3 {
+    float: left;
+    margin-left: 24.8px;
+    margin-top: 245px;
+}
+
+.middle-box6-middle-img2 {
+    width: 393.96px;
+    height: 315.16px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    background-image: url(https://www.tencent.com/data/index/index_link_1_3.jpg);
+}
+
+.middle-box6-middle-img2>h3 {
+    float: left;
+    margin-left: 24.8px;
+    margin-top: 245px;
+}
+
+/* 中间部分的第六个大盒子右边的小盒子 */
+.middle-box6-right {
+    width: 393.96px;
+    height: 630px;
+}
+
+.middle-box6-right-img1 {
+    width: 393.96px;
+    height: 315.16px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    background-image: url(https://www.tencent.com/data/index/index_link_1_2.jpg);
+}
+
+.middle-box6-right-img1>h3 {
+    float: left;
+    margin-left: 24.8px;
+    margin-top: 245px;
+}
+
+.middle-box6-right-img2 {
+    width: 393.96px;
+    height: 315.16px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    background-image: url(https://www.tencent.com/data/index/index_link_1_4.jpg);
+}
+
+.middle-box6-right-img2>h3 {
+    float: left;
+    margin-left: 24.8px;
+    margin-top: 245px;
+}
+
+/* 中间部分的第七个大盒子 */
+.middle-box7 {
+    margin-top: 72.8px;
+    width: 1200px;
+    height: 630px;
+    position: relative;
+}
+
+.middle-box7-img1 {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 1;
+}
+
+/* 文本部分 */
+.middle-box7>h2 {
+    position: absolute;
+    font-size: 42px;
+    line-height: 70px;
+    color: #000;
+    margin-top: 81.6px;
+    margin-left: 0;
+    z-index: 2;
+}
+
+.middle-box7>p {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 235px;
+    z-index: 2;
+}
+
+/* 箭头 */
+.middle-box7-youjiantou1::after {
+    content: '';
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 45px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transform: rotate(-45deg);
+    z-index: 3;
+}
+
+.hengxian5::after {
+    content: '';
+    position: absolute;
+    margin-top: 272px;
+    margin-left: 3px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #000;
+    z-index: 3;
+}
+
+.middle-box7-zuojiantou::after {
+    content: '';
+    position: absolute;
+    margin-top: 558px;
+    margin-left: 2px;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transform: rotate(-45deg);
+    z-index: 3;
+}
+
+.middle-box7-youjiantou2::after {
+    content: '';
+    position: absolute;
+    margin-top: 558px;
+    margin-left: 130px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    z-index: 3;
+}
+
+.hengxian6::after {
+    content: '';
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 3px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #fff;
+    z-index: 3;
+}
+
+.hengxian7::after {
+    content: '';
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 88px;
+    width: 54px;
+    height: 3px;
+    border-bottom: 2px solid #fff;
+    z-index: 3;
+}
+
+/* 三个小点 */
+.sangexiaodian1 {
+    position: absolute;
+    margin-top: 558px;
+    margin-left: 1122px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.sangexiaodian2 {
+    position: absolute;
+    margin-top: 558px;
+    margin-left: 1144px;
+    width: 10px;
+    height: 10px;
+
+    background-color: #fff;
+    z-index: 3;
+}
+
+.sangexiaodian3 {
+    position: absolute;
+    margin-top: 558px;
+    margin-left: 1166px;
+    width: 30px;
+    height: 10px;
+    background-color: #0052d9;
+    z-index: 3;
+}

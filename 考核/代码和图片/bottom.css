@@ -1,0 +1,89 @@
+.ten-bottom {
+    margin-top: 36px;
+    width: 1200px;
+    height: 720px;
+    color: #5f6464;
+    position: relative;
+}
+
+.bottom-logo {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 900px;
+}
+
+.bottom-focus-list li {
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.bottom-focus-list li:first-child {
+    margin-left: 0;
+    margin-top: -4px;
+    font-size: 22px;
+}
+
+.bottom-box1 {
+    width: 660px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-join-list {
+    margin-top: 80px;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.bottom-join-list li {
+    margin-top: 26px;
+}
+
+.bottom-join-list li:first-child {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.bottom-contact-list {
+    margin-top: 80px;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.bottom-contact-list li {
+    margin-top: 26px;
+}
+
+.bottom-contact-list li:first-child {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.bottom-law-list {
+    margin-top: 80px;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.bottom-law-list li {
+    margin-top: 26px;
+}
+
+.bottom-law-list li:first-child {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.bottom-xiangguanlianjie li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 30px;
+}
+
+.ten-bottom h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+}
